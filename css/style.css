@@ -9,17 +9,33 @@
     --backgraund: linear-gradient(to bottom, #755CAD, #724DA3, #634276);
 }
 
+html{
+    background-color: gray;
+}
+
 body{
-    width: 400px;
-    height: 500px;
+    background-color: white;
+    width: 350px;
+    height: 652.644px;
     margin: auto;
+    text-align: center;
 }
 
 main{
     background-image: var(--backgraund);
-    width: 350px;
-    height: 450px;
+    width: 332.037px;
+    height: 397.9px;
     margin: auto;
+}
+
+h1{
+    color: white;
+}
+
+ul{
+    list-style: none;
+    color: #400C58;
+    text-align: center;
 }
 
 a{
@@ -27,21 +43,18 @@ a{
 }
 
 nav ul{
-    width: 300px;
-    height: 50px;
     display: flex;
-    justify-content: space-evenly;
     list-style: none;
     margin: auto;
+    width: 330px;
 }
 
 nav li{
     background-color: var(--cor-02);
-    box-shadow: 0px 2px 5px 1px rgba(0, 0, 0, 0.377);
-    width: 90px;
-    height: 40px;
-    margin: auto;   
-    padding: 2px;
+    width: 89px;
+    height: 25px;
+    margin: auto;
+    padding: 3px;
 }
 
 nav li a{
@@ -50,11 +63,21 @@ nav li a{
 
 footer{
     text-align: center;
+    width: 330px;
+    height: 652.644px;
 }
 
 footer p{
     padding: 5px;
     justify-content: space-evenly;
+}
+
+a.t{
+    color: #400C58;
+    text-align: center;
+    font-size: 19.596px;
+    font-weight: 400;
+    letter-spacing: 1px;
 }
 
 .margin-10{
