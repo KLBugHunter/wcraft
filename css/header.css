@@ -1,0 +1,21 @@
+header{
+    background-color: #D9D9D9;
+    height: 11px;
+    position: relative;
+}
+
+header > div{
+    width: 20px;
+    height: 11px;
+    position: absolute;
+}
+
+header > div:nth-child(1){
+    background-color: #FF0000;
+    right: 0px;
+}
+
+header > div:nth-child(2){
+    background-color: #B51D1D;
+    right: 20px;
+}
