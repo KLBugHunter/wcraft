@@ -18,9 +18,23 @@ nav li{
     padding: 3px;
 }
 
+li:hover{
+    background-color: #7B62B4;
+}
+
 nav li a{
     color: black;
     font-size: 15px;
+}
+
+a{
+    text-decoration: none;
+}  
+
+img#interrogacao{
+    position: absolute;
+    right: 5px;
+    top: 5px;
 }
 
 #main{

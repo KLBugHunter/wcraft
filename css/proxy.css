@@ -4,14 +4,22 @@ h2{
 
 input{
     margin-bottom: 10px;
+    height: 25px;
 }
 
 hr{
     width: 330px;
     margin: auto;
+}    
+
+section#proxy .bb{
+    border: none;
+    padding: 2px;
+    border-bottom: 2px solid rgb(194, 193, 193);
 }
 
-
-a{
-    text-decoration: none;
+section#proxy input:nth-child(5){
+    background-color: #00A341;
+    color: white;
 }
+
