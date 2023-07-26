@@ -4,7 +4,40 @@ h2{
 
 input{
     margin-bottom: 10px;
-    height: 25px;
+    padding: 3px;
+}
+
+input:nth-child(2){
+    width: 156.765px;
+    height: 31.571px;
+    border: 0.544px solid #000;
+    background: #D9D9D9;
+}
+
+input:nth-child(3){
+    width: 37.747px;
+    height: 31.571px;
+    background: #D9D9D9;
+}
+
+input:nth-child(4){
+    width: 37.747px;
+    height: 31.571px;
+    background: #D9D9D9;
+}
+
+section#proxy input:nth-child(5){
+    background-color: #00A341;
+    color: white;
+    width: 76.75px;
+    height: 31.571px;
+}
+
+input:nth-child(6){
+    width: 333.67px;
+    height: 28.305px;
+    background: #D9D9D9;
+    border: 8.71px;
 }
 
 hr{
@@ -17,9 +50,3 @@ section#proxy .bb{
     padding: 2px;
     border-bottom: 2px solid rgb(194, 193, 193);
 }
-
-section#proxy input:nth-child(5){
-    background-color: #00A341;
-    color: white;
-}
-
